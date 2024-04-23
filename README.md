@@ -1,8 +1,6 @@
 # Data-Services-Engineering
 
-This repository contains projects and resources for the **Data Services Engineering** course. Below you will find an overview of the course and details about each project.
-
-## Course Overview
+## Overview
 
 This course introduces core concepts and practical skills for engineering data in Web-service-oriented data-driven applications. Students will learn fundamental infrastructure for building data services on the Web, including techniques for accessing and ingesting data from internal/external sources, developing software services for data curation (e.g., extraction, transformation, correction, aggregation), applying various analytics, and visualizing data for effective communication. Python is used as the primary programming language for practical modules, although the concepts are applicable to any web development language/framework.
 
@@ -20,28 +18,30 @@ This course aims to introduce the student to core concepts and practical skills 
 - **Operated Flights and Seats Data (seats.csv):** Provides information about international airlines to and from Australia in monthly intervals from September 2003 until September 2022. Covers airline activity, airport locations, and maximum seat capacity.
     - Dataset Source: [International Airlines Operated Flights and Seats](https://data.datahub.freightaustralia.gov.au/dataset/international-airlines-operated-flights-andseats)
 
-### Project Tasks
+### Purpose
+- Explore international flights to and from Australia.
+- Understand passenger, freight, and mail data across different city pairs.
+- Analyze airline activity, airport locations, and seat capacity.
+
+### Instructions
 - Manually inspect datasets and answer provided questions.
 - Attributes are self-explanatory or further elaborated in the instructions.
-- Clarify any doubts on Webcms if needed.
-- Note: Data is sourced from public sources; inaccuracies are possible.
 
 ## Project 2: Data-Driven Calendar Management and Weather Forecasting System
 
-### Project Description
-- Designed and implemented CRUD functionalities for events in a data-driven calendar management system.
-- Integrated geospatial data visualization techniques into a weather forecasting system.
-- Ensured scalability and performance optimization through efficient database querying and API integration.
+### Functionality
+- Implemented CRUD functionalities for event management in a data-driven calendar system.
+- Integrated external APIs for metadata extraction and overlap detection.
+- Designed geospatial data visualization for a weather forecasting system.
+  
+### Key Points
+- Scalability and performance optimization through efficient database querying.
+- API integration for real-time weather updates.
+- Ensured system robustness and user-friendly interface.
 
 ## Project 3: Revenue Maximization Analysis for ATM Placement Strategy
 
-### Project Details
-- Analyzed ATM location data using Python, Pandas, and Scikit-learn for revenue optimization.
+### Analysis
+- Analyzed ATM location data using Python, Pandas, and Scikit-learn.
 - Developed Gradient Boosting Regression and Classification models for revenue prediction and location rating.
 - Provided strategic insights on ATM placement for revenue enhancement.
-
-## Contributing
-If you have any suggestions, improvements, or found issues, feel free to open an issue or create a pull request.
-
-## License
-This repository is licensed under the [MIT License](LICENSE).
